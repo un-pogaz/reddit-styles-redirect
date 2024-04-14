@@ -6,10 +6,15 @@ const styleRedirectData = {
         "url": "https://old.reddit.com",
         "hostname": "old.reddit.com"
     },
-    "boxy":{
-        "title": "\"New\" boxy style",
+    "boxy": {
+        "title": "Legacy boxy style",
         "url": "https://new.reddit.com",
         "hostname": "new.reddit.com"
+    },
+    "flat": {
+        "title": "Flat and round style (Current)",
+        "url": "https://sh.reddit.com",
+        "hostname": "sh.reddit.com"
     }
 }
 enableRedirect = true
