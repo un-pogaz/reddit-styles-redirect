@@ -1,6 +1,6 @@
 {
-  "name": "Old Reddit Redirect",
-  "description": "Ensure Reddit always loads the old design",
+  "name": "Reddit Styles Redirect",
+  "description": "Ensure Reddit always loads the wanted design",
   "version": "1.8.0",
   "manifest_version": 2,
   "background": {
@@ -21,7 +21,9 @@
   "content_scripts": [
     {
       "matches": [
-        "*://old.reddit.com/*"
+        "*://old.reddit.com/*",
+        "*://new.reddit.com/*",
+        "*://sh.reddit.com/*"
       ],
       "css": [
         "styles.css"

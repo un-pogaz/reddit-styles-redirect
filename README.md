@@ -1,15 +1,14 @@
-# Old Reddit Redirect
-
 > [!NOTE]  
 > If you're wondering why the chrome extension recently requested new permissions, please see https://github.com/tom-james-watson/old-reddit-redirect/issues/117
 
-[Chrome extension](https://chrome.google.com/webstore/detail/old-reddit-redirect/dneaehbmnbhcippjikoajpoabadpodje)
+# Reddit Styles Redirect
 
-[Firefox extension](https://addons.mozilla.org/firefox/addon/old-reddit-redirect)
+[Latest version](https://github.com/un-pogaz/reddit-styles-redirect/releases/latest)
 
-Dislike Reddit's redesign? Old Reddit Redirect will ensure that you always load the old (old.reddit.com) design instead.
+Dislike Reddit's redesign? Reddit Styles Redirect will ensure that you always load the wanted design instead.
 
-Will force all reddit.com usage to old.reddit.com. Will work when navigating to the site, opening links, using old bookmarks. Works regardless of whether you are logged in or not, and in incognito mode.
+Will force all reddit.com usage to the reddit url of the style, between "Old classic" (old.reddit.com), "Legacy boxy" (new.reddit.com) and "Flat and round" (sh.reddit.com) styles.<br>
+Will work when navigating to the site, opening links, using old bookmarks. Works regardless of whether you are logged in or not, and in incognito mode.
 
 Also has a new minor fixes and quality of life improvements like:
 
@@ -26,6 +25,7 @@ Also has a new minor fixes and quality of life improvements like:
 
 #### Whitelisted domains
 
+- `old.reddit.com`
 - `new.reddit.com`
 - `sh.reddit.com`
 
@@ -42,4 +42,4 @@ Once you've verified things are working correctly locally you can fork this repo
 
 ## License
 
-Code copyright Tom Watson. Code released under [the MIT license](LICENSE.txt).
+Code copyright Tom Watson (original) and un_pogaz (fork). Code released under [the MIT license](LICENSE.txt).
