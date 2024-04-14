@@ -137,11 +137,14 @@ chrome.storage.local.get("styleRedirect", function(items){
   
 chrome.contextMenus.onClicked.addListener(function (info, tab) {
   if (info.menuItemId === styleRedirectId) {
-    if (styleRedirect == "old") {
-        styleRedirect = "boxy";
+    keys = Object.keys(styleRedirectData)
+    index = keys.indexOf(styleRedirect)
+    if (index >= (keys.length-1)) {
+      index = 0;
     } else {
-        styleRedirect = "old";
+      index++;
     }
+    styleRedirect = keys[index]
     updateStyleRedirect(styleRedirect);
     chrome.storage.local.set({"styleRedirect": styleRedirect}, function(){});
   }
