@@ -1,7 +1,7 @@
 {
   "name": "Reddit Styles Redirect",
   "description": "Ensure Reddit always loads the wanted design",
-  "version": "1.8.0",
+  "version": "1.8.0.1",
   "manifest_version": 2,
   "background": {
     "scripts": [
