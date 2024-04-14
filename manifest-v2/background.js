@@ -138,8 +138,8 @@ chrome.storage.local.get("styleRedirect", function(items){
   if (value != undefined) {
     styleRedirect = value;
   }
-  updateStyleRedirect(styleRedirect)
 });
+updateStyleRedirect(styleRedirect)
 
 chrome.contextMenus.onClicked.addListener(function (info, tab) {
   if (info.menuItemId === styleRedirectId) {
