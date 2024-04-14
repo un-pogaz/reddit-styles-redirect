@@ -41,6 +41,7 @@ const excludedPaths = [
   /^\/rpan/,
   /^\/settings/,
   /^\/topics/,
+  /^\/subreddits/,
   /^\/community-points/,
   /^\/r\/[a-zA-Z0-9_]+\/s\/.*/, // eg https://reddit.com/r/comics/s/TjDGhcl22d
   /^\/appeals?/,
