@@ -1,21 +1,21 @@
 styleRedirect = "old"
 const styleRedirectId = "style-reddit-redirect"
 const styleRedirectData = {
-    "old": {
-        "title": "Old classic style",
-        "url": "https://old.reddit.com",
-        "hostname": "old.reddit.com"
-    },
-    "boxy": {
-        "title": "Legacy boxy style",
-        "url": "https://new.reddit.com",
-        "hostname": "new.reddit.com"
-    },
-    "flat": {
-        "title": "Flat and round style (Current)",
-        "url": "https://sh.reddit.com",
-        "hostname": "sh.reddit.com"
-    }
+  "old": {
+    "title": "Old classic style",
+    "url": "https://old.reddit.com",
+    "hostname": "old.reddit.com"
+  },
+  "boxy": {
+    "title": "Legacy boxy style",
+    "url": "https://new.reddit.com",
+    "hostname": "new.reddit.com"
+  },
+  "flat": {
+    "title": "Flat and round style (Current)",
+    "url": "https://sh.reddit.com",
+    "hostname": "sh.reddit.com"
+  }
 }
 enableRedirect = true
 const enableRedirectId = "enable-reddit-redirect"
@@ -134,13 +134,13 @@ function updateStyleRedirect(value){
 }
 
 chrome.storage.local.get("styleRedirect", function(items){
-    value = items["styleRedirect"];
-    if (value != undefined) {
-      styleRedirect = value;
-    }
-    updateStyleRedirect(styleRedirect)
-  });
-  
+  value = items["styleRedirect"];
+  if (value != undefined) {
+    styleRedirect = value;
+  }
+  updateStyleRedirect(styleRedirect)
+});
+
 chrome.contextMenus.onClicked.addListener(function (info, tab) {
   if (info.menuItemId === styleRedirectId) {
     keys = Object.keys(styleRedirectData)
