@@ -165,6 +165,7 @@ chrome.contextMenus.create({
 function updateEnableRedirect(value){
   chrome.contextMenus.update(enableRedirectId, {title: enableRedirectData[value]["title"]});
   chrome.browserAction.setIcon({path: enableRedirectData[value]["icons"]});
+  updateStyleRedirect(styleRedirect);
 }
 updateEnableRedirect(enableRedirect);
 
