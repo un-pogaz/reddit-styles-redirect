@@ -45,7 +45,7 @@ const excludedPaths = [
   /^\/community-points/,
   /^\/r\/[a-zA-Z0-9_]+\/s\/.*/, // eg https://reddit.com/r/comics/s/TjDGhcl22d
   /^\/appeals?/,
-  /\/r\/.*\/s\//,
+  /\/(r|u|user)\/.*\/s\//,
   /\.json$/,
   /\.rss$/,
 ];
