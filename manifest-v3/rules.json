@@ -28,7 +28,7 @@
     "action": {
       "type": "redirect",
       "redirect": {
-        "regexSubstitution": "https://old.reddit.com/comments/\\1"
+        "regexSubstitution": "https://new.reddit.com/comments/\\1"
       }
     },
     "condition": {
@@ -47,7 +47,7 @@
       "type": "redirect",
       "redirect": {
         "transform": {
-          "host": "old.reddit.com"
+          "host": "new.reddit.com"
         }
       }
     }
@@ -63,7 +63,7 @@
       "type": "redirect",
       "redirect": {
         "transform": {
-          "host": "old.reddit.com"
+          "host": "new.reddit.com"
         }
       }
     }
@@ -79,7 +79,7 @@
       "type": "redirect",
       "redirect": {
         "transform": {
-          "host": "old.reddit.com"
+          "host": "new.reddit.com"
         }
       }
     }
@@ -95,7 +95,7 @@
       "type": "redirect",
       "redirect": {
         "transform": {
-          "host": "old.reddit.com"
+          "host": "new.reddit.com"
         }
       }
     }
@@ -111,7 +111,7 @@
       "type": "redirect",
       "redirect": {
         "transform": {
-          "host": "old.reddit.com"
+          "host": "new.reddit.com"
         }
       }
     }
